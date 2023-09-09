@@ -1,0 +1,238 @@
+.pricing {
+
+    margin-bottom: 136px;
+
+    .pricing-subtitle {
+        text-align: center;
+        color: #000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        margin-bottom: 57px;
+    }
+
+    .pricing-item {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 257px;
+    }
+
+    .study {
+        width: 565px;
+    }
+
+    .study img {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .study-title {
+        color: #263238;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 19px;
+    }
+
+    .study-text {
+        width: 430px;
+        color: #8F95A5;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 29px;
+    }
+
+    .price-1 {
+        display: flex;
+        width: 240px;
+        border-radius: 5px;
+        background: #EEE;
+        gap: 8px;
+        padding-left: 18px;
+        align-items: center;
+    }
+
+    .price-1 b {
+        color: #263238;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .price-1 p {
+        color: #546269;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+    .online {
+        width: 565px;
+        padding-top: 10px;
+    }
+
+    .online img {
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .online-title {
+        color: #263238;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 23px;
+    }
+
+    .online-text {
+        width: 430px;
+        color: #8F95A5;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 59px;
+    }
+
+    .personal {
+        width: 565px;
+    }
+
+    .personal img {
+        margin: 0 auto;
+        margin-bottom: 11px;
+    }
+
+    .personal-title {
+        color: #263238;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        margin-bottom: 23px;
+    }
+
+    .personal-text {
+        width: 400px;
+        color: #8F95A5;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 59px;
+    }
+}
+
+
+@media only screen and (max-width:1050px) {
+    .pricing {
+
+        .pricing-subtitle {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 22px;
+        }
+
+        .pricing-item {
+            gap: 15px;
+            margin-bottom: 257px;
+        }
+
+        .study {
+            width: 450px;
+        }
+
+        .study img {
+            width: 222px;
+            height: 222px;
+            margin-bottom: 20px;
+        }
+
+        .study-title {
+            font-size: 22px;
+            margin-bottom: 14px;
+        }
+
+        .study-text {
+            width: 100%;
+            color: #8F95A5;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 29px;
+        }
+
+        .price-1 {
+            display: flex;
+            width: 205px;
+            gap: 7px;
+            padding-left: 12px;
+        }
+
+        .price-1 b {
+            color: #263238;
+            font-size: 24px;
+        }
+
+        .price-1 p {
+            color: #546269;
+            font-size: 16px;
+        }
+
+
+        .online {
+            width: 450px;
+            padding-top: 10px;
+        }
+
+        .online img {
+            width: 267px;
+            height: 195px;
+            margin-bottom: 40px;
+        }
+
+        .online-title {
+            color: #263238;
+            font-size: 22px;
+            margin-bottom: 9px;
+        }
+
+        .online-text {
+            width: 100%;
+            color: #8F95A5;
+            font-size: 16px;
+            margin-bottom: 52px;
+        }
+
+        .personal {
+            width: 450px;
+        }
+
+        .personal img {
+            width: 242px;
+            height: 242px;
+            margin-bottom: 5px;
+        }
+
+        .personal-title {
+            color: #263238;
+            font-size: 22px;
+            margin-bottom: 1px;
+        }
+
+        .personal-text {
+            width: 100%;
+            font-size: 16px;
+            margin-bottom: 59px;
+        }
+    }
+}

@@ -1,0 +1,133 @@
+.hero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 103px;
+
+    .bg {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        top: 250px;
+        left: 320px;
+        background-image: url("../../assets/svg/lampochka.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hero-list {
+        width: 526px;
+    }
+
+    .hero-subtitle {
+        width: 416px;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+    }
+
+    .hero-text {
+        width: 526px;
+        color: #8F95A5;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 61px;
+    }
+
+    .hero-btn {
+        padding: 25px 117px;
+        border-radius: 15px;
+        border: none;
+        background: #263238;
+        transition: all 0.7s ease;
+
+        a {
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: white;
+        }
+    }
+
+    .hero-btn:hover {
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+    }
+
+    .hero-img {
+        width: 661px;
+        height: 661px;
+    }
+}
+
+
+@media only screen and (max-width:1050px) {
+    .hero {
+
+        .bg {
+            position: relative;
+            width: 60px;
+            height: 60px;
+            top: 250px;
+            left: 300px;
+            background-image: url("../../assets/svg/lampochka.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .hero-list {
+            width: 420px;
+        }
+
+        .hero-subtitle {
+            width: 290px;
+            color: #000;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 64px;
+            margin-bottom: 27px;
+        }
+
+        .hero-text {
+            width: 100%;
+            color: #8F95A5;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 33px;
+        }
+
+        .hero-btn {
+            padding: 22px 78px;
+            border-radius: 15px;
+            border: none;
+            background: #263238;
+            transition: all 0.7s ease;
+
+            a {
+                color: #FFF;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+
+        .hero-img {
+            width: 450px;
+            height: 450px;
+        }
+
+    }
+}

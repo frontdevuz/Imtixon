@@ -1,0 +1,163 @@
+.footer {
+
+    .contact {
+        display: flex;
+        gap: 90x;
+    }
+
+    .contact-img {
+        width: 477px;
+        height: 430px;
+    }
+
+    .contactus-title {
+        color: #000;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 80px;
+        margin-bottom: 37px;
+    }
+
+    .contactus-text {
+        color: #8F95A5;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 50px;
+    }
+
+    .contact-box {
+        display: flex;
+    }
+
+    .contact-box input {
+        width: 450px;
+        border-radius: 10px;
+        border: 1px solid #8F95A5;
+        padding: 30px 33px;
+        color: #8F95A5;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: 12px;
+    }
+
+    .contact-btn {
+        border: none;
+        padding: 28px 81px;
+        border-radius: 10px;
+        background: #263238;
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    
+    .span {
+        width: 1300px;
+        height: 1px;
+        background: #C4C4C4;
+        margin-top: 133px;
+        margin-bottom: 31px;
+    }
+}
+
+
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+
+   
+
+    .contact-link {
+        color: #8F95A5;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 55px;
+    }
+}
+
+
+
+@media only screen and (max-width:1050px) {
+
+
+    .footer {
+
+        .contact {
+            display: flex;
+            gap: 80px;
+        }
+
+        .contact-img {
+            width: 312px;
+            height: 281px;
+        }
+    
+        .contactus-title {
+            color: #000;
+            font-size: 36px;
+            margin-bottom: 5px;
+        }
+    
+        .contactus-text {
+            width: 400px;
+            font-size: 16px;
+            margin-bottom: 34px;
+        }
+
+    
+        .contact-box input {
+            width: 323px;
+            border-radius: 10px;
+            border: 1px solid #8F95A5;
+            padding: 23px 38px;
+            color: #8F95A5;
+            font-size: 14px;
+            margin-right: 14px;
+        }
+    
+        .contact-btn {
+            border: none;
+            padding: 18px 56px;
+            border-radius: 10px;
+            font-size: 16x;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+        .span {
+            width: 900px;
+            height: 1px;
+            background: #C4C4C4;
+            margin-top: 133px;
+            margin-bottom: 31px;
+        }
+    }
+    
+    
+    .footer-end {
+        display: flex;
+        align-items: center;
+        width: 900px;
+
+        img {
+            width: 89px;
+            height: 45px;
+        }
+    
+        .contact-link {
+            font-size: 16px;
+            margin-bottom: 55px;
+        }
+    }
+    
+
+ }
